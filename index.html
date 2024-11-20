@@ -8,7 +8,7 @@
     <meta name="keywords" content="" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/favicon.ico" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Fonts -->
@@ -56,15 +56,28 @@
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
       >
-        <a href="index.html" class="logo d-flex align-items-center">
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/logo.png" alt="" />
-        </a>
-
         <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-          </ul>
+          <header
+            id="header"
+            class="header d-flex align-items-center fixed-top"
+          >
+            <div
+              class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+            >
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo.png" alt="logo" />
+              </a>
+
+              <nav id="navmenu" class="navmenu">
+                <ul>
+                  <li><a href="index.html" class="active">Home</a></li>
+                  <li><a href="juego.html">Videojuego</a></li>
+                  <li><a href="planmatch.html">PlanMatch</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+              </nav>
+            </div>
+          </header>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
       </div>
@@ -101,24 +114,21 @@
               >
             </p>
           </div>
-          <!-- Botones alineados a la izquierda con icono y texto -->
           <div class="row mt-4">
             <div class="col-6 col-md-3">
               <a
-                href="portfolio.html"
+                href="juego.html"
                 class="btn btn-dark btn-lg square-button d-flex flex-column justify-content-center align-items-center"
               >
                 <i class="fas fa-gamepad icon-small mb-1"></i>
-                <!-- Icono de mando de videojuego -->
               </a>
             </div>
             <div class="col-6 col-md-3 mt-2 mt-md-0">
               <a
-                href="resume.html"
+                href="planmatch.html"
                 class="btn btn-dark btn-lg square-button d-flex flex-column justify-content-center align-items-center"
               >
                 <i class="fas fa-users icon-small mb-1"></i>
-                <!-- Icono de dos personas -->
               </a>
             </div>
           </div>
@@ -128,29 +138,12 @@
 
     <footer id="footer" class="footer dark-background">
       <div class="container">
-        <!-- Hero Section
-      <h3 class="sitename">Personal</h3>
-      <p>Et aut eum quis fuga eobs sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      -->
         <div class="container">
           <div class="copyright">
             <span>Interacción </span> <strong class="sitename">Humano</strong>
             <span>Computador</span>
           </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Hecho por <a href="">JUGUTY</a>
-          </div>
+          <div class="credits">Hecho por <a href="">JUGUTY</a></div>
         </div>
       </div>
     </footer>
