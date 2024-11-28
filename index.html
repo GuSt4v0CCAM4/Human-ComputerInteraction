@@ -96,14 +96,14 @@
           style="object-fit: cover; opacity: 0.5"
         />
         <div class="container">
-          <!-- Texto alineado a la izquierda -->
           <div class="text-left">
             <h2 class="text-white">
-              <span class="text-success">H</span>uman-<span class="text-success"
-                >C</span
-              >omputer
+              <span class="text-success">I</span>nteracción
               <br />
-              <span class="text-success">I</span>nteraction
+              <span class="text-success">H</span>umano-<span
+                class="text-success"
+                >C</span
+              >omputador
             </h2>
             <p class="text-white">
               Presentando
@@ -121,6 +121,7 @@
                 class="btn btn-dark btn-lg square-button d-flex flex-column justify-content-center align-items-center"
               >
                 <i class="fas fa-gamepad icon-small mb-1"></i>
+                <span>Juego</span>
               </a>
             </div>
             <div class="col-6 col-md-3 mt-2 mt-md-0">
@@ -129,24 +130,15 @@
                 class="btn btn-dark btn-lg square-button d-flex flex-column justify-content-center align-items-center"
               >
                 <i class="fas fa-users icon-small mb-1"></i>
+                <span>Proyecto final</span>
               </a>
             </div>
+            <div class="sm:hidden col-6 col-md-3 mt-2 mt-md-0">
+              <img src="assets/img/planmaatch_logo.png" class="floating-image" alt="PlanMatch Logo" />
+            </div>
           </div>
-        </div>
       </section>
     </main>
-
-    <footer id="footer" class="footer dark-background">
-      <div class="container">
-        <div class="container">
-          <div class="copyright">
-            <span>Interacción </span> <strong class="sitename">Humano</strong>
-            <span>Computador</span>
-          </div>
-          <div class="credits">Hecho por <a href="">JUGUTY</a></div>
-        </div>
-      </div>
-    </footer>
 
     <!-- Scroll Top -->
     <a
@@ -174,4 +166,34 @@
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
   </body>
+
+  <style>
+    .floating-image {
+      max-width: 200px; /* Adjust the size as needed */
+      animation: float 3s ease-in-out infinite;
+      display: absolute;
+      margin-left: 75%;
+    }
+
+    @keyframes float {
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .floating-image {
+        width: 20px; 
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -50%;
+        display: block;
+      }
+    }
+  </style>
 </html>
