@@ -102,78 +102,238 @@
       <!-- End Page Title -->
 
       <!-- Services Section -->
-      <section id="services" class="services section">
+      <section id="team" class="team-section bg-black text-white py-5">
         <div class="container">
           <div class="row gy-4">
             <!-- Member 1 -->
             <div
               class="col-lg-6 col-md-6"
-              data-aos="fade-up"
+              data-aos="zoom-in"
               data-aos-delay="100"
             >
-              <div class="service-item position-relative">
-                <img
-                  src="assets/img/team/gustavo.jpg"
-                  alt="Gustavo Alonso CCAMA MARRON"
-                  class="img-fluid rounded-circle mb-3"
-                  style="width: 120px; height: 120px; object-fit: cover"
-                />
-                <h3>Gustavo Alonso CCAMA MARRON</h3>
+              <div class="team-card">
+                <div class="member-image">
+                  <img
+                    src="assets/img/team/gustavo.jpg"
+                    alt="Gustavo Alonso CCAMA MARRON"
+                    class="img-fluid"
+                  />
+                  <div class="member-social">
+                    <a href="#" class="linkedin"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href="#" class="github"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Gustavo Alonso</h3>
+                  <h4>CCAMA MARRON</h4>
+                </div>
               </div>
             </div>
 
             <!-- Member 2 -->
             <div
               class="col-lg-6 col-md-6"
-              data-aos="fade-up"
+              data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <div class="service-item position-relative">
-                <img
-                  src="assets/img/team/luciana.jpg"
-                  alt="Luciana Julissa Huaman Coaquira"
-                  class="img-fluid rounded-circle mb-3"
-                  style="width: 120px; height: 120px; object-fit: cover"
-                />
-                <h3>Luciana Julissa Huaman Coaquira</h3>
+              <div class="team-card">
+                <div class="member-image">
+                  <img
+                    src="assets/img/team/luciana.jpg"
+                    alt="Luciana Julissa Huaman Coaquira"
+                    class="img-fluid"
+                  />
+                  <div class="member-social">
+                    <a href="#" class="linkedin"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href="#" class="github"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Luciana Julissa</h3>
+                  <h4>HUAMAN COAQUIRA</h4>
+                </div>
               </div>
             </div>
 
             <!-- Member 3 -->
             <div
               class="col-lg-6 col-md-6"
-              data-aos="fade-up"
+              data-aos="zoom-in"
               data-aos-delay="300"
             >
-              <div class="service-item position-relative">
-                <img
-                  src="assets/img/team/kevin.jpg"
-                  alt="Kevin Joaquin Chambi Tapia"
-                  class="img-fluid rounded-circle mb-3"
-                  style="width: 120px; height: 120px; object-fit: cover"
-                />
-                <h3>Kevin Joaquin Chambi Tapia</h3>
+              <div class="team-card">
+                <div class="member-image">
+                  <img
+                    src="assets/img/team/kevin.jpg"
+                    alt="Kevin Joaquin Chambi Tapia"
+                    class="img-fluid"
+                  />
+                  <div class="member-social">
+                    <a href="#" class="linkedin"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href="#" class="github"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Kevin Joaquin</h3>
+                  <h4>CHAMBI TAPIA</h4>
+                </div>
               </div>
             </div>
 
             <!-- Member 4 -->
             <div
               class="col-lg-6 col-md-6"
-              data-aos="fade-up"
+              data-aos="zoom-in"
               data-aos-delay="400"
             >
-              <div class="service-item position-relative">
-                <img
-                  src="assets/img/team/jd.png"
-                  alt="Juan Diego Huamani Vilca"
-                  class="img-fluid rounded-circle mb-3"
-                  style="width: 120px; height: 120px; object-fit: cover"
-                />
-                <h3>Juan Diego Huamani Vilca</h3>
+              <div class="team-card">
+                <div class="member-image">
+                  <img
+                    src="assets/img/team/jd.png"
+                    alt="Juan Diego Huamani Vilca"
+                    class="img-fluid"
+                  />
+                  <div class="member-social">
+                    <a href="#" class="linkedin"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href="#" class="github"><i class="bi bi-github"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Juan Diego</h3>
+                  <h4>HUAMANI VILCA</h4>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <style>
+          .team-card {
+            background: linear-gradient(145deg, #1a1a1a, #0a0a0a);
+            border-radius: 20px;
+            padding: 20px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+          }
+
+          .team-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(var(--accent-color), 0.2);
+          }
+
+          .member-image {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            margin-bottom: 20px;
+          }
+
+          .member-image img {
+            width: 100%;
+            height: 300px;
+            object-fit: scale-down;
+            border-radius: 15px;
+            transition: all 0.3s ease;
+          }
+
+          .member-social {
+            position: absolute;
+            bottom: -50px;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px 0;
+            transition: all 0.3s ease;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+          }
+
+          .team-card:hover .member-social {
+            bottom: 0;
+          }
+
+          .member-social a {
+            color: white;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+          }
+
+          .member-social a:hover {
+            transform: scale(1.2);
+          }
+
+          .member-info {
+            text-align: center;
+            padding: 20px 10px;
+          }
+
+          .member-info h3 {
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+          }
+
+          .member-info h4 {
+            color: #666;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+          }
+
+          @media (max-width: 768px) {
+            .team-card {
+              margin-bottom: 30px;
+            }
+          }
+
+          /* Smooth scroll behavior */
+          html {
+            scroll-behavior: smooth;
+          }
+
+          /* Add these keyframes for additional animation options */
+          @keyframes float {
+            0% {
+              transform: translateY(0px);
+            }
+            50% {
+              transform: translateY(-10px);
+            }
+            100% {
+              transform: translateY(0px);
+            }
+          }
+
+          @keyframes pulse {
+            0% {
+              transform: scale(1);
+            }
+            50% {
+              transform: scale(1.05);
+            }
+            100% {
+              transform: scale(1);
+            }
+          }
+
+          /* Optional: Add these classes to elements for different animations */
+          .float {
+            animation: float 3s ease-in-out infinite;
+          }
+
+          .pulse {
+            animation: pulse 2s ease-in-out infinite;
+          }
+        </style>
       </section>
 
       <!-- /Services Section -->
