@@ -158,8 +158,8 @@
                     data-aos-delay="100"
                   >
                     <a
-                      href="#signup"
-                      class="btn btn-primary btn-lg px-5 py-3"
+                      href="#"
+                      class="btn btn-primary btn-lg px-5 py-3 cta-button"
                       style="
                         background-color: var(--accent-color);
                         border-color: var(--accent-color);
@@ -236,6 +236,7 @@
                     <span class="text-white">Resultados de encuestas:</span>
                     <a
                       href="https://drive.google.com/file/d/1gbMC_ES74jbsWHsNtSSG9TEGLkIlh4IU/view?usp=drive_link"
+                      target="_blank"
                       class="btn btn-sm"
                       style="background-color: var(--accent-color)"
                     >
@@ -278,28 +279,32 @@
                     <span class="text-white">Entrevistas a Usuarios:</span>
                     <div class="btn-group">
                       <a
+                        href="https://drive.google.com/file/d/1cTA-eVYf8Svn090DlSwFkUz40RRN7_N7/view?usp=sharing"
+                        target="_blank"
+                        class="btn btn-sm"
+                        style="background-color: var(--accent-color)"
+                        >Experto</a
+                      >
+                      <a
                         href="https://drive.google.com/file/d/1p0ZHO1o-LgKMAIPDpoxih7rKc0lplDrg/view"
+                        target="_blank"
                         class="btn btn-sm"
                         style="background-color: var(--accent-color)"
                         >A</a
                       >
                       <a
                         href="https://drive.google.com/file/d/1HNRqBHwYPXG-a6IYVb_7ibddT6GbI6Rq/view?usp=drive_link"
+                        target="_blank"
                         class="btn btn-sm"
                         style="background-color: var(--accent-color)"
                         >B</a
                       >
                       <a
                         href="https://drive.google.com/file/d/1jagLJlr_hjxIewtUwskgE2g15jvMcCV6/view?usp=drive_link"
+                        target="_blank"
                         class="btn btn-sm"
                         style="background-color: var(--accent-color)"
                         >C</a
-                      >
-                      <a
-                        href="https://drive.google.com/file/d/1cTA-eVYf8Svn090DlSwFkUz40RRN7_N7/view?usp=sharing"
-                        class="btn btn-sm"
-                        style="background-color: var(--accent-color)"
-                        >D</a
                       >
                     </div>
                   </div>
@@ -309,6 +314,7 @@
                     <span class="text-white">Momentos interesantes:</span>
                     <a
                       href="https://drive.google.com/drive/folders/1fdH0voWRqfOkOag27gBu6Q1aaZghbS4z?usp=drive_link"
+                      target="_blank"
                       class="btn btn-sm"
                       style="background-color: var(--accent-color)"
                     >
@@ -321,6 +327,7 @@
                     <span class="text-white">Explicación:</span>
                     <a
                       href="https://drive.google.com/file/d/1WlJ5bwnHsemZp90iSa2wHieElbl-5-Hs/preview"
+                      target="_blank"
                       class="btn btn-sm"
                       style="background-color: var(--accent-color)"
                     >
@@ -364,18 +371,21 @@
                     <div class="btn-group">
                       <a
                         href="https://drive.google.com/file/d/1R2noaZzNDuFsyaTOkgcQKx_G8Ty0Gzts/view?usp=drive_link"
+                        target="_blank"
                         class="btn btn-sm"
                         style="background-color: var(--accent-color)"
                         >1</a
                       >
                       <a
                         href="https://drive.google.com/file/d/1by_4TGgI7Uu0RQ3UoI7gR373hg26teaw/view?usp=drive_link"
+                        target="_blank"
                         class="btn btn-sm"
                         style="background-color: var(--accent-color)"
                         >2</a
                       >
                       <a
                         href="https://drive.google.com/file/d/1OEKP-6kYO6WTixP07ATwXbYAKfU4i1No/view?usp=drive_link"
+                        target="_blank"
                         class="btn btn-sm"
                         style="background-color: var(--accent-color)"
                         >3</a
@@ -435,112 +445,25 @@
                     <div
                       class="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
-                      style="width: 60%; background-color: var(--accent-color)"
-                      aria-valuenow="60"
+                      style="width: 70%; background-color: var(--accent-color)"
+                      aria-valuenow="70"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     >
-                      60%
+                      70%
                     </div>
                   </div>
                 </div>
                 <div class="implementation-details text-gray-300">
                   <p class="mb-2">Tareas en desarrollo:</p>
                   <ul class="list-disc pl-5">
-                    <li>Implementación de la task 1</li>
-                    <li>Implementación de la task 2</li>
+                    <li>Prototipo de alta fidelidad</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <style>
-          .timeline-container {
-            position: relative;
-            max-width: 1200px;
-            margin: 0 auto;
-          }
-
-          .timeline-container::after {
-            content: "";
-            position: absolute;
-            width: 2px;
-            background: var(--accent-color);
-            top: 0;
-            bottom: 0;
-            left: 50%;
-            margin-left: -1px;
-          }
-
-          .timeline-card {
-            padding: 10px 40px;
-            position: relative;
-            width: 50%;
-            margin-bottom: 30px;
-          }
-
-          .timeline-card:nth-child(odd) {
-            left: 0;
-          }
-
-          .timeline-card:nth-child(even) {
-            left: 50%;
-          }
-
-          .timeline-card::after {
-            content: "";
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            right: -10px;
-            background-color: var(--accent-color);
-            border-radius: 50%;
-            top: 15px;
-            z-index: 1;
-          }
-
-          .timeline-card:nth-child(even)::after {
-            left: -10px;
-          }
-
-          @media screen and (max-width: 768px) {
-            .timeline-container::after {
-              left: 31px;
-            }
-
-            .timeline-card {
-              width: 100%;
-              padding-left: 70px;
-              padding-right: 25px;
-            }
-
-            .timeline-card:nth-child(even) {
-              left: 0;
-            }
-
-            .timeline-card::after {
-              left: 21px;
-            }
-          }
-
-          .bg-gray-900 {
-            background-color: #121212;
-          }
-
-          .bg-gray-800 {
-            background-color: #1e1e1e;
-          }
-
-          .text-gray-400 {
-            color: #9ca3af;
-          }
-
-          .text-gray-300 {
-            color: #d1d5db;
-          }
-        </style>
       </section>
       <!-- /Resume Section -->
     </main>
@@ -570,5 +493,134 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <style>
+      .timeline-container {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .timeline-container::after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        background: var(--accent-color);
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -1px;
+      }
+
+      .timeline-card {
+        padding: 10px 40px;
+        position: relative;
+        width: 50%;
+        margin-bottom: 30px;
+      }
+
+      .timeline-card:nth-child(odd) {
+        left: 0;
+      }
+
+      .timeline-card:nth-child(even) {
+        left: 50%;
+      }
+
+      .timeline-card::after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: -10px;
+        background-color: var(--accent-color);
+        border-radius: 50%;
+        top: 15px;
+        z-index: 1;
+      }
+
+      .timeline-card:nth-child(even)::after {
+        left: -10px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .timeline-container::after {
+          left: 31px;
+        }
+
+        .timeline-card {
+          width: 100%;
+          padding-left: 70px;
+          padding-right: 25px;
+        }
+
+        .timeline-card:nth-child(even) {
+          left: 0;
+        }
+
+        .timeline-card::after {
+          left: 21px;
+        }
+      }
+
+      .bg-gray-900 {
+        background-color: #121212;
+      }
+
+      .bg-gray-800 {
+        background-color: #1e1e1e;
+      }
+
+      .text-gray-400 {
+        color: #9ca3af;
+      }
+
+      .text-gray-300 {
+        color: #d1d5db;
+      }
+
+      .cta-button {
+        display: inline-block;
+        animation: wiggle 1s infinite;
+      }
+
+      @keyframes wiggle {
+        0%,
+        100% {
+          transform: rotate(-2deg);
+        }
+        50% {
+          transform: rotate(2deg);
+        }
+      }
+
+      .btn-group {
+        display: flex;
+        gap: 8px; /* Adds space between buttons */
+      }
+
+      .btn {
+        padding: 8px 16px;
+        border-radius: 4px;
+        text-decoration: none;
+        color: white;
+        background-color: var(--accent-color);
+        transition: all 0.2s ease;
+      }
+
+      .btn:hover {
+        background-color: var(
+          --accent-color-dark,
+          #0056b3
+        ); /* Darker shade on hover */
+        transform: translateY(-1px); /* Slight lift effect */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+      }
+
+      .btn-sm {
+        font-size: 14px;
+        padding: 6px 12px;
+      }
+    </style>
   </body>
 </html>
