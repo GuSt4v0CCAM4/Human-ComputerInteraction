@@ -75,9 +75,9 @@
                 />
                 <h1>PlanMatch</h1>
                 <p class="lead">
-                  ¿Listo para vivir nuevas aventuras? Únete a una comunidad que
-                  transforma espacios verdes en oportunidades para crear
-                  conexiones genuinas y memorables.
+                  <b>Objetivo:</b> Facilitar la interacción social y la creación
+                  de conexiones significativas a través de actividades al aire
+                  libre en espacios seguros.
                 </p>
 
                 <section id="intro" class="section">
@@ -352,39 +352,37 @@
                 </div>
               </div>
             </div>
-    
 
-              <div class="timeline-card" data-aos="fade-right">
-                <div
-                  class="card bg-gray-900 border-0 p-4 shadow-lg"
-                  style="border-left: 4px solid var(--accent-color) !important"
-                >
-                  <h3 class="text-2xl mb-3" style="color: var(--accent-color)">
-                    Etapa 3: Personas
-                  </h3>
-                  <div class="timestamp mb-3 text-gray-400">Noviembre 2024</div>
-                  <p class="text-gray-300 mb-4">
-                    <em>Se identificaron los perfiles de usuario. </em>
-                  </p>
-                  <div class="media-container mb-4 position-relative">
-                    <iframe
-                      src="https://drive.google.com/file/d/1Wn7xuL-YX37-UuDQ-6qnoG6wQ48_lcCN/preview"
-                      class="w-100 document-preview"
-                      style="height: 250px; border-radius: 8px"
-                      allow="autoplay"
-                    ></iframe>
-                    <button
-                      class="btn btn-primary expand-icon"
-                      data-bs-toggle="modal"
-                      data-bs-target="#documentModal5"
-                      style="position: absolute; top: 10px; right: 10px"
-                    >
-                      <i class="bi bi-arrows-fullscreen"></i>
-                    </button>
-                  </div>
+            <div class="timeline-card" data-aos="fade-right">
+              <div
+                class="card bg-gray-900 border-0 p-4 shadow-lg"
+                style="border-left: 4px solid var(--accent-color) !important"
+              >
+                <h3 class="text-2xl mb-3" style="color: var(--accent-color)">
+                  Etapa 3: Personas
+                </h3>
+                <div class="timestamp mb-3 text-gray-400">Noviembre 2024</div>
+                <p class="text-gray-300 mb-4">
+                  <em>Se identificaron los perfiles de usuario. </em>
+                </p>
+                <div class="media-container mb-4 position-relative">
+                  <iframe
+                    src="https://drive.google.com/file/d/1Wn7xuL-YX37-UuDQ-6qnoG6wQ48_lcCN/preview"
+                    class="w-100 document-preview"
+                    style="height: 250px; border-radius: 8px"
+                    allow="autoplay"
+                  ></iframe>
+                  <button
+                    class="btn btn-primary expand-icon"
+                    data-bs-toggle="modal"
+                    data-bs-target="#documentModal5"
+                    style="position: absolute; top: 10px; right: 10px"
+                  >
+                    <i class="bi bi-arrows-fullscreen"></i>
+                  </button>
                 </div>
               </div>
-            </div> 
+            </div>
 
             <!-- Stage 3 -->
             <div class="timeline-card" data-aos="fade-right">
@@ -571,6 +569,12 @@
       .modal-content {
         max-height: 90vh;
         overflow-y: auto;
+      }
+
+      .modal-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #000;
       }
 
       .timeline-container {
@@ -771,7 +775,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <iframe src="${item.iframeSrc}" class="w-100" style="height: 80vh; border-radius: 8px" allow="autoplay"></iframe>
+                <iframe src="${item.iframeSrc}" class="w-100" style="height: 75vh; border-radius: 8px" allow="autoplay"></iframe>
               </div>
             </div>
           </div>
