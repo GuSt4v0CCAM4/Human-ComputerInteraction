@@ -581,6 +581,38 @@
                 </div>
               </div>
             </div>
+
+            <div class="timeline-card" data-aos="fade-right">
+              <div
+                class="card bg-gray-900 border-0 p-4 shadow-lg"
+                style="border-left: 4px solid var(--accent-color) !important"
+              >
+                <h3 class="text-2xl mb-3" style="color: var(--accent-color)">
+                  Etapa 8: Evaluación heurística
+                </h3>
+                <div class="timestamp mb-3 text-gray-400">Diciembre 2024</div>
+                <p class="text-gray-300 mb-4">
+                  <em>Se realizó la evaluación heurística de PlanMatch.</em>
+                </p>
+
+                <div class="media-container mb-4 position-relative">
+                  <iframe
+                    src="https://drive.google.com/file/d/1Vo7uld_KVaJgskJMqE0UYq9C2jhxwTRA/preview"
+                    class="w-100 document-preview"
+                    style="height: 250px; border-radius: 8px"
+                    allow="autoplay"
+                  ></iframe>
+                  <button
+                    class="btn btn-primary expand-icon"
+                    data-bs-toggle="modal"
+                    data-bs-target="#documentModal8"
+                    style="position: absolute; top: 10px; right: 10px"
+                  >
+                    <i class="bi bi-arrows-fullscreen"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -611,7 +643,7 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
     <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js" async></script>
 
     <style>
       .expand-icon {
@@ -623,7 +655,9 @@
       }
 
       .expand-icon:hover {
-        background-color: darken(var(--accent-color), 10%);
+        background-color: #fff !important;
+        color: var(--accent-color);
+        border: 1px solid var(--accent-color);
       }
 
       .modal-lg {
@@ -830,6 +864,14 @@
           iframeSrc:
             "https://drive.google.com/file/d/1S1cVaI1bJbhaFw-mCn1o07gNUJBPjIbV/preview",
           modalId: "documentModal7",
+        },
+        {
+          title: "Evaluación heurística",
+          date: "Diciembre 2024",
+          description: "Desarrollo en proceso...",
+          iframeSrc:
+            "https://drive.google.com/file/d/1Vo7uld_KVaJgskJMqE0UYq9C2jhxwTRA/preview",
+          modalId: "documentModal8",
         },
       ];
 
